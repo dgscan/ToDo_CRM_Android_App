@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/addTask"
+            android:icon="@drawable/ic_add_task"
+            android:title="Yeni Görev Ekle" />
+        <item
+            android:id="@+id/listTasks"
+            android:icon="@drawable/ic_list_tasks"
+            android:title="Görevleri Listele" />
+
+        <item
+            android:id="@+id/addCustomer"
+            android:icon="@drawable/ic_add_customer"
+            android:title="Müşteri Ekle" />
+        <item
+            android:id="@+id/updateCustomer"
+            android:icon="@drawable/ic_update_customer"
+            android:title="Müşteri Bilgilerini Güncelle" />
+
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/ic_exit"
+            android:title="Çıkış" />
+    </group>
+
+</menu>
